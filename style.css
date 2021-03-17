@@ -5,7 +5,7 @@
   /* Main of page with background gradient */
   body {
     text-align: center;
-    background-image: linear-gradient(to right,#b34c4c , #1c4586);
+    background-image: linear-gradient(to right,#8a58a8 , #1c4586);
   }
   
   /* Title Font */
@@ -49,14 +49,14 @@
     padding: 35px;
     color: white;
     text-decoration: none;
-    font-size: 50px;
+    font-size: 35px;
   }
   
   /* Navbar links on mouse-over */
   .navbar a:hover {
     background-color: #000;
     opacity: .25;
-    border-radius: 10%;
+    border-radius: 10px;
   }
 
   /* My hippo logo and Thinkful image paramiters */
