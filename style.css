@@ -39,6 +39,7 @@
     width: 100%;
     overflow: auto;
     position: fixed;
+    padding-right: 2%;
   }
   
   /* Navbar links */
