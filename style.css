@@ -1,71 +1,83 @@
 * {
     box-sizing: border-box;
   }
-
-  html,
+  
   body {
-    background: black;
-    display: flex;
-    margin: 0;
-    min-height: 100%;
-    width: 100%;
+    text-align: center;
+    font-size: 15px;
   }
-
-  header {
-    color: white;
-    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
-    letter-spacing: 0.3vw;
-    margin: auto;
-    text-align: left;
-    padding: 5vw;
-    width: 100%;
-    z-index: 1;
+  
+  h1 {
+    font-size: 1.5em;
   }
-
-  header h1 {
-    background-image: white;
-    display: block;
-    font-size: 7vw;
-    margin: 0 auto 2vw;
-    padding: 0 0 3vw;
-    border-bottom: 0.5vw solid rgba(255,255,255, 0.1);
-  }
-
-  header .links {
-    font-size: 6vw;
-    letter-spacing: 0.2vw;
-  }
-
-  header .links a {
-    background: white;
-    background-size: 100%;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    color: #fff;
-    display: inline-block;
-    font-weight: bold;
-    padding: 0.8vw;
-    text-decoration: none;
-    background-position: 0 0;
-    transition: background-position 0.24s linear;
-  }
-
-  header .links a:hover,
-  header .links a:focus,
-  header .links a:active 
-  {
-    background-position: 0 -1vw;
-  }
-
-  header .links .dot 
-  {
+  
+  h2 {
     font-size: 1.2em;
-    font-weight: bold;
-    position: relative;
-    top: 0.2vw;
-    margin: 0 0 0 3.5vw;
+  }
+  
+  nav {
+    width: 100%;
+    padding: 2%;
+    margin: 0;
+    background-color: rgb(199, 199, 199) ;
+  }
+  
+  ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  
+  .homePage {
+    padding: 15%;
+    background-color: rgb(236, 234, 234);
+  }
+  
+  .aboutPage {
+    padding: 10%;
+    background-color: gainsboro;
+  }
+  
+  .aboutMe {
+    margin: 20px;
+    padding: 0;
+  }
+  
+  .projects {
+    background-color: rgb(232, 236, 225);
+    padding: 5%;
+  }
+  
+  .projectList {
+    padding: 5%;
+  }
+  
+  .screengrab {
+    padding: 20%;
+    margin: 10% 10% 0 10%;
+    background-color: gray;
+  }
+  
+  .projectTitle, .projectBlurb {
+    margin: 5px;
+  }
+  
+  .projectGroup {
+    margin: 20px;
+  }
+  
+  .contactInfo, .languages {
+    padding: 3%;
+  }
+  
+  .languageList {
+    padding-top: 5%;
+  }
+  
+  .contact {
+    padding: 5%;
+    background-color: rgb(167, 166, 166);
+    width: 100%;
   }
 
-  section {
-    display: none;
-  }
