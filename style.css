@@ -42,7 +42,6 @@
     text-align: center;
   }
 
-
    /* Nav bar settings*/
   .navbar {
     width: 100%;
@@ -103,18 +102,21 @@
     list-style: inside;
   }
   
+  /* Section of text only */
   .aboutMe {
     font-family: monospace;
     text-align: left;
     text-indent: 3em;
     padding-top: .5em; }
 
+  /* Design for the logo background */
   .linkbox {
     background-image: linear-gradient(to left,#8a8a8a, #55a36f 60%);
     border-radius: 25px;
     padding: 0.5%;
   }
 
+  /* Break line for sectinos, has gradient added */
   hr {
     margin: 0 auto;
     width: 90%;
@@ -137,11 +139,18 @@
   .shadow {
     text-shadow: 0px 10px 10px rgba(0, 0, 0, 0.4);
   }
+
   /* Center class for addition to text */
   .center {
     text-align: center;
   }
 
+  /* List effects, still tweaking */
   .studyList {
-
+    font-family: monospace;
+    text-align: left;
+    padding-top: .5em;
+    margin-left: 5%;
+    font-size: 2em;
+    color: white;
   }
