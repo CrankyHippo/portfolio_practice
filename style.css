@@ -102,6 +102,7 @@
   .aboutMe {
     font-family: monospace;
     text-align: left;
+    text-indent: 3em;
   }
 
   .contact {
