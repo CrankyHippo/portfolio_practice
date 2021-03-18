@@ -2,155 +2,175 @@
     box-sizing: border-box;
   }
 
-  /* Main of page with background gradient */
-  body {
-    background-image: linear-gradient(to right,#8a58a8 , #1c4586);
+/* Main of page with background gradient */
+body {
+  background-image: linear-gradient(to right,#8a58a8 , #1c4586);
   }
 
-  /* Title Font */
-  h1 {
-    font-size: 6em;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bolder;
-  }
+/* Title Font */
+h1 {
+  font-size: 6em;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+}
 
-  /* Sub title font */
-  h2 {
-    font-size: 3em;
-    color: white;
-    font-style: italic;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: lighter;
-  }
+/* Sub title font */
+h2 {
+  font-size: 3em;
+  color: white;
+  font-style: italic;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+}
 
-  /* Description Font settings */
-  h3 {
-    font-size: 1.5em;
-    color: white;
-    font-style: italic;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bolder;
-  }
+/* Description Font settings */
+h3 {
+  font-size: 1.5em;
+  color: white;
+  font-style: italic;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+}
 
-  h4 {
-    font-size: 2em;
-    color: rgb(255, 255, 255);
-    font-style: italic;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bolder;
-    text-align: center;
-  }
+h4 {
+  font-size: 2em;
+  color: rgb(255, 255, 255);
+  font-style: italic;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  text-align: center;
+}
 
-   /* Nav bar settings*/
-  .navbar {
-    width: 100%;
-    overflow: auto;
-    position: fixed;
-    padding-right: 2%;
-  }
+/* Nav bar settings*/
+.navbar {
+  width: 100%;
+  overflow: auto;
+  position: fixed;
+  padding-right: 2%;
+}
   
-  /* Navbar links */
-  .navbar a {
-    float: right;
-    text-align: right;
-    padding: 35px;
-    color: white;
-    text-decoration: none;
-    font-size: 35px;
-  }
+/* Navbar links */
+.navbar a {
+  float: right;
+  text-align: right;
+  padding: 35px;
+  color: white;
+  text-decoration: none;
+  font-size: 35px;
+}
   
-  /* Navbar links on mouse-over */
-  .navbar a:hover {
-    background-color: #000;
-    opacity: .25;
-    border-radius: 10px;
-  }
+/* Navbar links on mouse-over */
+.navbar a:hover {
+  background-color: #000;
+  opacity: .25;
+  border-radius: 10px;
+}
 
-  /* My hippo logo and Thinkful image paramiters */
-  .imgRound {
+/* My hippo logo and Thinkful image paramiters */
+.imgRound {
   border: 10px solid #000;
   border-radius: 50%;
   justify-content: center;
-  }
+}
 
-  /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
-  @media screen and (max-width: 500px) {
-    .navbar a {
-      float: none;
-      display: block;
-    }
+/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
   }
+}
   
-  /* Arrangement for social links */
-  ul {
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-  }
+/* Arrangement for social links */
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
 
-  /* Settings for main about, need to check list style */
-  .aboutPage {
-    padding: 5%;
-    font-size: 2em;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.75), rgba(255, 255, 255, 0));
-    border-radius: 50px;
-    text-align: center;
-    list-style: inside;
-  }
+/* Settings for main about, need to check list style */
+.aboutPage {
+  padding: 5%;
+  font-size: 2em;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.75), rgba(255, 255, 255, 0));
+  border-radius: 50px;
+  text-align: center;
+  list-style: inside;
+}
   
-  /* Section of text only */
-  .aboutMe {
-    font-family: monospace;
-    text-align: left;
-    text-indent: 3em;
-    padding-top: .5em; }
+/* Section of text only */
+.aboutMe {
+  font-family: monospace;
+  text-align: left;
+  text-indent: 3em;
+  padding-top: .5em; }
 
-  /* Design for the logo background */
-  .linkbox {
-    background-image: linear-gradient(to left,#8a8a8a, #55a36f 60%);
-    border-radius: 25px;
-    padding: 0.5%;
-  }
+/* Design for the logo background */
+.linkbox {
+  background-image: linear-gradient(to left,#8a8a8a, #55a36f 60%);
+  border-radius: 25px;
+  padding: 0.5%;
+}
 
-  /* Break line for sectinos, has gradient added */
-  hr {
-    margin: 0 auto;
-    width: 90%;
-    border: 0;
-    height: 5px;
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
-  }
-  
-  /* Adding some margin to the top break for the logo */
-  .hrTop {
-    margin: 0 auto;
-    margin-top: 50px;
-    width: 90%;
-    border: 0;
-    height: 5px;
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
-  }
+/* Break line for sectinos, has gradient added */
+hr {
+  margin: 0 auto;
+  width: 90%;
+  border: 0;
+  height: 5px;
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+}
 
-  /* Shadow class for name */
-  .shadow {
-    text-shadow: 0px 10px 10px rgba(0, 0, 0, 0.4);
-  }
+/* Adding some margin to the top break for the logo */
+.hrTop {
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 90%;
+  border: 0;
+  height: 5px;
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+}
 
-  /* Center class for addition to text */
-  .center {
-    text-align: center;
-  }
+/* Shadow class for name */
+.shadow {
+  text-shadow: 0px 10px 10px rgba(0, 0, 0, 0.4);
+}
 
-  /* List effects, still tweaking */
-  .studyList {
-    font-family: monospace;
-    text-align: left;
-    padding-top: .5em;
-    margin-left: 5%;
-    font-size: 2em;
-    color: white;
-  }
+/* Center class for addition to text */
+.center {
+  text-align: center;
+}
+
+/* List effects, still tweaking */
+.studyList {
+  font-family: monospace;
+  text-align: left;
+  padding-top: .5em;
+  margin-left: 5%;
+  font-size: 2em;
+  color: white;
+}
+
+/* unvisited link */
+a:link {
+  color: rgb(255, 255, 255);
+}
+
+/* visited link */
+a:visited {
+  color: rgb(255, 255, 255);
+}
+
+/* mouse over link */
+a:hover {
+  color: rgb(7, 237, 245);
+}
+
+/* selected link */
+a:active {
+  color: rgb(235, 26, 182);
+}
