@@ -4,10 +4,9 @@
 
   /* Main of page with background gradient */
   body {
-    text-align: center;
     background-image: linear-gradient(to right,#8a58a8 , #1c4586);
   }
-  
+
   /* Title Font */
   h1 {
     font-size: 6em;
@@ -66,13 +65,6 @@
   justify-content: center;
   }
 
-  /* Centering for main hippo logo */
-  .center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: auto;
-  }
 
   /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
   @media screen and (max-width: 500px) {
@@ -89,7 +81,8 @@
     flex-direction: row;
     justify-content: space-evenly;
   }
-  
+
+  /* Settings for main about, need to check list style */
   .aboutPage {
     padding: 5%;
     font-size: 2em;
@@ -97,13 +90,15 @@
     font-family: Arial, Helvetica, sans-serif;
     background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.75), rgba(255, 255, 255, 0));
     border-radius: 50px;
+    text-align: center;
+    list-style: inside;
   }
   
   .aboutMe {
     font-family: monospace;
     text-align: left;
     text-indent: 3em;
-  }
+    padding-top: .5em; }
 
   .contact {
     background-image: linear-gradient(to left,#8a8a8a, #55a36f 60%);
@@ -127,4 +122,13 @@
     border: 0;
     height: 5px;
     background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+  }
+
+  /* Shadow class for name */
+  .shadow {
+    text-shadow: 0px 10px 10px rgba(0, 0, 0, 0.4);
+  }
+  /* Center class for addition to text */
+  .center {
+    text-align: center;
   }
