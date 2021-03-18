@@ -174,3 +174,10 @@ a:hover {
 a:active {
   color: rgb(235, 26, 182);
 }
+
+.footer {
+  text-align: center;
+  color: #000;
+  font-size: medium;
+  font-family: monospace;
+}
