@@ -1,11 +1,11 @@
 * {
-    box-sizing: border-box;
-  }
+  box-sizing: border-box;
+}
 
 /* Main of page with background gradient */
 body {
-  background-image: linear-gradient(to right,#8a58a8 , #1c4586);
-  }
+  background-image: linear-gradient(to right, #8a58a8, #1c4586);
+}
 
 /* Title Font */
 h1 {
@@ -49,7 +49,7 @@ h4 {
   position: fixed;
   padding-right: 2%;
 }
-  
+
 /* Navbar links */
 .navbar a {
   float: right;
@@ -59,11 +59,11 @@ h4 {
   text-decoration: none;
   font-size: 35px;
 }
-  
+
 /* Navbar links on mouse-over */
 .navbar a:hover {
   background-color: #000;
-  opacity: .25;
+  opacity: 0.25;
   border-radius: 10px;
 }
 
@@ -81,7 +81,7 @@ h4 {
     display: block;
   }
 }
-  
+
 /* Arrangement for social links */
 ul {
   list-style: none;
@@ -96,22 +96,28 @@ ul {
   font-size: 2em;
   color: white;
   font-family: Arial, Helvetica, sans-serif;
-  background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.75), rgba(255, 255, 255, 0));
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0),
+    rgba(0, 0, 0, 0.75),
+    rgba(255, 255, 255, 0)
+  );
   border-radius: 50px;
   text-align: center;
   list-style: inside;
 }
-  
+
 /* Section of text only */
 .aboutMe {
   font-family: monospace;
   text-align: left;
   text-indent: 3em;
-  padding-top: .5em; }
+  padding-top: 0.5em;
+}
 
 /* Design for the logo background */
 .linkbox {
-  background-image: linear-gradient(to left,#8a8a8a, #55a36f 60%);
+  background-image: linear-gradient(to left, #8a8a8a, #55a36f 60%);
   border-radius: 25px;
   padding: 0.5%;
 }
@@ -122,7 +128,12 @@ hr {
   width: 90%;
   border: 0;
   height: 5px;
-  background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, 0.75),
+    rgba(255, 255, 255, 0)
+  );
 }
 
 /* Adding some margin to the top break for the logo */
@@ -132,7 +143,12 @@ hr {
   width: 90%;
   border: 0;
   height: 5px;
-  background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, 0.75),
+    rgba(255, 255, 255, 0)
+  );
 }
 
 /* Shadow class for name */
@@ -149,7 +165,7 @@ hr {
 .studyList {
   font-family: monospace;
   text-align: left;
-  padding-top: .5em;
+  padding-top: 0.5em;
   margin-left: 5%;
   font-size: 2em;
   color: white;
